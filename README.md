@@ -6,8 +6,9 @@ You need to install _geoserver_, _qgis_, and a few javascript libraries, includi
 
 ### Debian/Ubuntu
 
-```markdown
+```shell
 sudo apt-get install qgis geoserver
+```
 
 ## Data Installation
 
