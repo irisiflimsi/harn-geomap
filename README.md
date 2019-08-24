@@ -18,7 +18,7 @@ You then need to get the data zip files. The zip files include some javascript l
 
 The harn-wepmap project makes use of the following software packages. Without them, this prtoject would not possible.
 
-* QGis: https://www.qgis.org
-* Geoserver: http://geoserver.org
-* OpenLayers: https://openlayers.org
-* JQuery: https://jquery.com
+* [QGis](https://www.qgis.org)
+* [Geoserver](http://geoserver.org)
+* [OpenLayers](https://openlayers.org)
+* [JQuery](https://jquery.com)
