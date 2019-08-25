@@ -32,8 +32,6 @@ create (or update) a directory called
 file CONTENTS.md. The files listed therein you need to create, because
 they will contain copyrighted material that cannot be published here.
 
-## Acknowledgements
-
 ## Usage
 
 Once you have prepared the necessary files, you need to start
