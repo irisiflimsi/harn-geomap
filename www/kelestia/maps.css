@@ -1,0 +1,28 @@
+html {
+    background-color: #def;
+    font-family: serif;
+    height: 100%;
+}
+
+body {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    padding: 2ex;
+    text-align: center;
+}
+
+.bigentity {
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to left, #7bf, #49e) 1 0;
+    background: linear-gradient(to right, #7bf, #49e);
+    color: #eee;
+}
+
+.mediumtext {
+    width: automatic;
+    text-align: justify;
+    padding-top: 1ex;
+    font-size: .9em;
+}

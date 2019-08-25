@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Maps</title>
+    <link rel="icon" href="favicon.png"/>
+    <link rel="stylesheet" href="ol-layerswitcher.css" />
+    <link rel="stylesheet" href="ol.css" >
+    <link rel="stylesheet" href="maps.css"/>
+    <script src="jquery.min.js"></script>
+    <script src="ol.js"></script>
+    <script src="ol-layerswitcher.js"></script>
+    <script src="maps.js"></script>
+    <style>
+      .ol-control .panel {
+        color: #eee;
+        background-color: rgba(100,60,136,.5);
+        font-weight: 700;
+        border-radius: 4px;
+        border-color: #eee;
+      }
+      .ol-control .panel ul {
+        padding: 2px;
+        margin: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="height:100%;" class="bigentity" id="map"></div>
+  </body>
+  <script>
+    postLoad();
+  </script>
+</html>
