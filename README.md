@@ -79,9 +79,9 @@ raster_.  This should be the corresponding entry in
 it up. Second, select _EPSG:4326_ as _Destination CRS_. This should
 always be the case.
 
-##### kethira.tif
+#### kethira.tif
 
-I extracted a 1418x471 image from //kethira200e.pdf//, page 6.  Cut
+I extracted a 1418x471 image from _kethira200e.pdf_, page 6.  Cut
 off the pole caps.
 ## Acknowledgements
 
