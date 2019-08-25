@@ -79,7 +79,12 @@ raster_.  This should be the corresponding entry in
 it up. Second, select _EPSG:4326_ as _Destination CRS_. This should
 always be the case.
 
+##### kethira.tif
+
+I extracted a 1418x471 image from //kethira200e.pdf//, page 6.  Cut
+off the pole caps.
 ## Acknowledgements
+
 
 The harn-webmap project makes use of the following software packages.
 Without them, this project would not have been possible.
