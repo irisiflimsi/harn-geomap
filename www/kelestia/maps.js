@@ -15,18 +15,20 @@ function fly(lon,lat,zom) {
  }
 
 function postLoad() {
-    var rasterTitle =  ['Global'         ];
-    var rasterLayer =  ['kelestia:global'];
+    var rasterTitle =  ['Global',         'Regional'];
+    var rasterLayer =  ['kelestia:global','kelestia:regional'];
+    var rasterMaxRes = [2,                .005];
 
     var rasters = [];
     for(i = 0; i < rasterTitle.length; i++) {
         rasters.push(new ol.layer.Tile({
             title: rasterTitle[i],
+            maxResolution: rasterMaxRes[i],
             source: new ol.source.TileWMS({
                 url: '/geoserver/kelestia/wms',
                 params: {
                     tiled: true,
-                    layers: 'kelestia:kethira',
+                    layers: rasterLayer[i]
                 }
             })
         }));
@@ -34,7 +36,7 @@ function postLoad() {
 
     map = new ol.Map({
         target: 'map',
-        layers: [ rasters[0] ],
+        layers: [ rasters[0], rasters[1] ],
         controls: ol.control.defaults().extend([
             new ol.control.FullScreen(),
             new ol.control.LayerSwitcher(),

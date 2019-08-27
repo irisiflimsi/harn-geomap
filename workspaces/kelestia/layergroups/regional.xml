@@ -1,30 +1,24 @@
 <layerGroup>
-  <id>LayerGroupInfoImpl--4f12561:16ca5824a95:-7b95</id>
-  <name>global</name>
+  <id>LayerGroupInfoImpl--4f12561:16ca5824a95:-7818</id>
+  <name>regional</name>
   <mode>SINGLE</mode>
-  <title>global</title>
+  <title>regional</title>
   <workspace>
     <id>WorkspaceInfoImpl--4f12561:16ca5824a95:-8000</id>
   </workspace>
   <publishables>
     <published type="layer">
-      <id>LayerInfoImpl--4f12561:16ca5824a95:-7b96</id>
-    </published>
-    <published type="layer">
-      <id>LayerInfoImpl--4f12561:16ca5824a95:-7b61</id>
+      <id>LayerInfoImpl--4f12561:16ca5824a95:-79cf</id>
     </published>
   </publishables>
   <styles>
     <style>
       <id>StyleInfoImpl--570ae188:124761b8d78:-7fe2</id>
     </style>
-    <style>
-      <id>StyleInfoImpl--570ae188:124761b8d78:-7fe2</id>
-    </style>
   </styles>
   <bounds>
     <minx>-180.0</minx>
-    <maxx>180.0</maxx>
+    <maxx>-180.0</maxx>
     <miny>-90.0</miny>
     <maxy>90.0</maxy>
     <crs>EPSG:4326</crs>

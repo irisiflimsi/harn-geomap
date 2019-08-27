@@ -46,7 +46,7 @@ Direct your browser to
 ```
 http://localhost:8080/geoserver/www/kelestia/maps.html
 ```
-and the kethiran base map will appear.
+and the Kethiran base map will appear.
 
 ## Preparation
 
@@ -79,12 +79,25 @@ raster_.  This should be the corresponding entry in
 it up. Second, select _EPSG:4326_ as _Destination CRS_. This should
 always be the case.
 
+### Global
+
 #### kethira.tif
 
 I extracted a 1418x471 image from _kethira200e.pdf_, page 6.  Cut
 off the pole caps.
-## Acknowledgements
 
+#### venarive.tif
+
+I extracted a 8967x6976 image from _VenariveMap_100.pdf_.
+
+### Regional
+
+#### regional/harn.tif
+
+I extracted and scaled an image with dimensions 12000x8000 from
+_Harn_Regional_Interactive_Map_201.pdf_.
+
+## Acknowledgements
 
 The harn-webmap project makes use of the following software packages.
 Without them, this project would not have been possible.
