@@ -84,23 +84,23 @@ always be the case.
 #### kethira.tif
 
 I extracted a 1418x471 image from _kethira200e.pdf_, page 6.  Cut
-off the pole caps.
+off the pole caps. (kelestia.com)
 
 #### venarive.tif
 
-I extracted a 8967x6976 image from _VenariveMap_100.pdf_.
+I extracted a 8967x6976 image from _VenariveMap_100.pdf_. (kelestia.com)
 
 ### Regional
 
 #### regional/harn.tif
 
 I extracted and scaled an image with dimensions 12000x8000 from
-_Harn_Regional_Interactive_Map_201.pdf_.
+_Harn_Regional_Interactive_Map_201.pdf_. (kelestia.com)
 
 Alternatively I extracted an image with dimensions 16752x11514 from
 the Harn map inside the _Atlas-Update-pdfs.zip_. However use
 `harn2.points` instead of `harn.points`, it is prepared for that
-image; it covers a slightly different area than the other map.
+image; it covers a slightly different area than the other map. (columbiagames.com)
 
 ### Domain
 
@@ -109,7 +109,16 @@ image; it covers a slightly different area than the other map.
 This is from the old _Rethem_ module (print only) and I scanned in a
 version that resulted in an image of dimension 6375x4730. It reaches
 (NW) from the middle of the northern boundary of the hex _Bedenes_ is
-in to the SE corner of the hex _Heroth_ is in.
+in to the SE corner of the hex _Heroth_ is in. (columbiagames.com)
+
+#### domain/afarezirs.tif
+
+A set of fan provided pdfs, I combined and created a map from. It is
+of dimension 9455x7399 and extends from the lower hex boundary that
+contains the word (K)ADAG (south) to upper boundary of the two hexes
+that contain the two northern most islands (north) and from left-most
+vertex of the hex containing the west-most island (west) to the center
+of all eastern edges containing the tow eastern most islands. (John Southgate)
 
 ## Acknowledgements
 
