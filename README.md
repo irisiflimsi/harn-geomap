@@ -44,7 +44,7 @@ You may already read on how to change the default admin password.
 
 Direct your browser to
 ```
-http://localhost:8080/geoserver/www/kelestia/maps.html
+http://localhost:8080/geoserver/www/kethira/maps.html
 ```
 and the Kethiran base map will appear.
 
@@ -65,7 +65,7 @@ directory yet!
 Start qgis and open _Raster -> Geo referencing_.  This will ask you
 for a image file.  Use the one you just created.  For each image you
 will have a corresponding points file in
-`GEOSERVER_HOME/data_dir/kelestia/points/`.  Load this (fourth menu
+`GEOSERVER_HOME/data_dir/kethira/points/`.  Load this (fourth menu
 icon from the left).  Most of the time, the non-zero part of the
 `srcX` entry you now see at the bottom equals the width your image and
 `srcY`to the (negative) height.  Modify this accordingly, if your
@@ -96,6 +96,20 @@ I extracted a 8967x6976 image from _VenariveMap_100.pdf_.
 
 I extracted and scaled an image with dimensions 12000x8000 from
 _Harn_Regional_Interactive_Map_201.pdf_.
+
+Alternatively I extracted an image with dimensions 16752x11514 from
+the Harn map inside the _Atlas-Update-pdfs.zip_. However use
+`harn2.points` instead of `harn.points`, it is prepared for that
+image; it covers a slightly different area than the other map.
+
+### Domain
+
+#### domain/rethem.tif
+
+This is from the old _Rethem_ module (print only) and I scanned in a
+version that resulted in an image of dimension 6375x4730. It reaches
+(NW) from the middle of the northern boundary of the hex _Bedenes_ is
+in to the SE corner of the hex _Heroth_ is in.
 
 ## Acknowledgements
 

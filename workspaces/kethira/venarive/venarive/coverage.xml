@@ -1,9 +1,9 @@
 <coverage>
-  <id>CoverageInfoImpl--4f12561:16ca5824a95:-7b62</id>
+  <id>CoverageInfoImpl--4f12561:16ca5824a95:-6c0b</id>
   <name>venarive</name>
   <nativeName>venarive</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl--4f12561:16ca5824a95:-7fff</id>
+    <id>NamespaceInfoImpl--4f12561:16ca5824a95:-6c10</id>
   </namespace>
   <title>venarive</title>
   <description>Generated from GeoTIFF</description>
@@ -42,7 +42,7 @@
     <entry key="dirName">venarive_venarive</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--4f12561:16ca5824a95:-7b63</id>
+    <id>CoverageStoreInfoImpl--4f12561:16ca5824a95:-6c0c</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <nativeFormat>GeoTIFF</nativeFormat>

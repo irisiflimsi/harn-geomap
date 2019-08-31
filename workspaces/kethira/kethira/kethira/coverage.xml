@@ -1,9 +1,9 @@
 <coverage>
-  <id>CoverageInfoImpl--4f12561:16ca5824a95:-7b97</id>
+  <id>CoverageInfoImpl--4f12561:16ca5824a95:-6c0e</id>
   <name>kethira</name>
   <nativeName>kethira</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl--4f12561:16ca5824a95:-7fff</id>
+    <id>NamespaceInfoImpl--4f12561:16ca5824a95:-6c10</id>
   </namespace>
   <title>kethira</title>
   <description>Generated from GeoTIFF</description>
@@ -23,17 +23,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-180.0</minx>
-    <maxx>180.0</maxx>
-    <miny>-90.0</miny>
-    <maxy>90.0</maxy>
+    <minx>-135.00000000000003</minx>
+    <maxx>225.12678249394938</maxx>
+    <miny>-60.1269168685741</miny>
+    <maxy>60.0</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-180.0</minx>
-    <maxx>180.0</maxx>
-    <miny>-90.0</miny>
-    <maxy>90.0</maxy>
+    <minx>-135.00000000000003</minx>
+    <maxx>225.12678249394938</maxx>
+    <miny>-60.1269168685741</miny>
+    <maxy>60.0</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -42,7 +42,7 @@
     <entry key="dirName">kethira_kethira</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--4f12561:16ca5824a95:-7b98</id>
+    <id>CoverageStoreInfoImpl--4f12561:16ca5824a95:-6c0f</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <nativeFormat>GeoTIFF</nativeFormat>

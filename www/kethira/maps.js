@@ -15,9 +15,9 @@ function fly(lon,lat,zom) {
  }
 
 function postLoad() {
-    var rasterTitle =  ['Global',         'Regional'];
-    var rasterLayer =  ['kelestia:global','kelestia:regional'];
-    var rasterMaxRes = [2,                .005];
+    var rasterTitle =  ['Global',        'Regional',        'Domain'];
+    var rasterLayer =  ['kethira:global','kethira:regional','kethira:domain'];
+    var rasterMaxRes = [2,               .005,              .001];
 
     var rasters = [];
     for(i = 0; i < rasterTitle.length; i++) {
@@ -25,7 +25,7 @@ function postLoad() {
             title: rasterTitle[i],
             maxResolution: rasterMaxRes[i],
             source: new ol.source.TileWMS({
-                url: '/geoserver/kelestia/wms',
+                url: '/geoserver/kethira/wms',
                 params: {
                     tiled: true,
                     layers: rasterLayer[i]
@@ -36,7 +36,7 @@ function postLoad() {
 
     map = new ol.Map({
         target: 'map',
-        layers: [ rasters[0], rasters[1] ],
+        layers: [ rasters[0], rasters[1], rasters[2] ],
         controls: ol.control.defaults().extend([
             new ol.control.FullScreen(),
             new ol.control.LayerSwitcher(),
