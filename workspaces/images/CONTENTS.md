@@ -1,4 +1,10 @@
-kethira.tif
-venarive.tif
+global/kethira.tif
+global/venarive.tif
 regional/harn.tif
+domain/afarezirs.tif
+domain/denia-marsh.tif
 domain/rethem.tif
+local/harn_pottage_4_13.tif
+interior/harn_pottage_4_10.tif
+interior/harn_pottage_4_11.tif
+interior/harn_pottage_4_17.tif
