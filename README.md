@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-1. [Basic Installation](## Basic Installation)
+1. [Basic Installation](##-basic-installation)
 2. [Data Installation]
 3. [Usage]
 4. [Preparation]
