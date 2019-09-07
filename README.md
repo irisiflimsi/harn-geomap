@@ -2,13 +2,13 @@
 
 ## Table of Contents
 
-1. [Basic Installation](##-basic-installation)
-2. [Data Installation]
-3. [Usage]
-4. [Preparation]
-5. [Community Maps]
-6. [Do-it-yourself]
-7. [Acknowledgements]
+1. [Basic Installation](#basic-installation)
+2. [Data Installation](#data-installation)
+3. [Usage](#usage)
+4. [Preparation](#preparation)
+5. [Community Maps](#community-maps)
+6. [Do-it-yourself](#do-it-yourself)
+7. [Acknowledgements](#acknowledgements)
 
 ## Basic Installation
 
