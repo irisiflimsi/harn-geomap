@@ -1,5 +1,15 @@
 # Harn Webmap Project
 
+## Table of Contents
+
+1. [Basic Installation](## Basic Installation)
+2. [Data Installation]
+3. [Usage]
+4. [Preparation]
+5. [Community Maps]
+6. [Do-it-yourself]
+7. [Acknowledgements]
+
 ## Basic Installation
 
 You need to install _geoserver_ and _qgis_.  Depending on the OS you
@@ -85,7 +95,7 @@ always be the case.
 #### kethira.tif
 
 I extracted a 1418x471 image from _kethira200e.pdf_, page 6.  Cut off
-the pole caps. (kelestia.com)
+the pole caps.  (kelestia.com)
 
 #### venarive.tif
 
@@ -122,14 +132,44 @@ See Community Maps.
 
 See Community Maps.
 
+### Local
+
 #### local/harn_pottage...
 
 All these maps are arbitrarily placed, where it suited my campaign.
-The serve as backdrops for the interior maps.  See Community Maps.
+The naming is such that the _first number_ is the Harn pottage edition
+and the _second number_ the page.  They serve as backdrops for the
+interior maps, so you even if you place them elsewhare the
+relationship between local and interior map is conserved.  See
+Community Maps.  (Mike St. Pierre)
+
+#### local/golotha.tif
+
+I scanned may printed version from _Columbia Games_ to get a 4426x2906
+image.  (columbiagames.com)
+
+### Interior
 
 #### interior/harn_pottage...
 
-See Community Maps.
+See Community Maps.  Also see local maps above for the naming scheme
+and the use you may make of the "randomly" placed locations.  Also
+observe that the images are extracted from the PDFs and I tried to
+make them as "tight" as possible on ground level.  Other levels are
+expanded, so I only needed to create a _points_ file once.  (Mike
+St. Pierre)
+
+#### interior/golotha...
+
+I scanned as scavenged all material I could get my hands on and this
+is a mixture of Community and Company maps.  Under these conditions it
+is as "tight" as possible.  Probably the most difficult to create yet,
+but I hope it will still be of use.
+
+#### interior/kustan_...
+
+Again, use a scan or extract as "tight" as possible.  (Alun
+Reeves/columbiagames.com)
 
 ## Community Maps
 
@@ -137,6 +177,29 @@ These maps are obtained from _lythia.com_.  I hope to host the
 converted maps in the future.  Until then you can get them from me
 privately through email, if you prove you are aware of who alleges
 Copyright.
+
+## Do-it-yourself
+
+Basically this works as the general import for pre-existing maps.  You
+have to create the point files yourself.  To get the scale right, make
+sure your map is of a standard resolution (local, interior, ...).  You
+can then reuse any of the existing _points_ files, where you keep the
+relation between
+
+```
+horizontal pixel difference : longitude difference
+```
+
+and
+
+```
+vertical pixel difference : latitude difference
+```
+
+and then shift the whole set according to where you want it.  A point
+of advice: QGIS doesn't really show enough significant digits) maybe
+there is a setting I didn't find) so I did mine with an ASCII text
+editor and imported the point file.
 
 ## Acknowledgements
 

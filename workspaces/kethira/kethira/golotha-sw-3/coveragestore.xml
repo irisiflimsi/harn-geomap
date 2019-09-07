@@ -1,0 +1,12 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--4f12561:16ca5824a95:-589d</id>
+  <name>golotha-sw-3</name>
+  <description>golotha-sw-3</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--4f12561:16ca5824a95:-6c11</id>
+  </workspace>
+  <__default>false</__default>
+  <url>file:workspaces/images/interior/golotha-sw-3.tif</url>
+</coverageStore>

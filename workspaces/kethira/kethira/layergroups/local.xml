@@ -1,0 +1,50 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--4f12561:16ca5824a95:-64d0</id>
+  <name>local</name>
+  <mode>SINGLE</mode>
+  <title>local</title>
+  <workspace>
+    <id>WorkspaceInfoImpl--4f12561:16ca5824a95:-6c11</id>
+  </workspace>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--4f12561:16ca5824a95:-64d4</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--4f12561:16ca5824a95:-5fdd</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--4f12561:16ca5824a95:-5be1</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--4f12561:16ca5824a95:-55e0</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--4f12561:16ca5824a95:-4f4a</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--570ae188:124761b8d78:-7fe2</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--570ae188:124761b8d78:-7fe2</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--570ae188:124761b8d78:-7fe2</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--570ae188:124761b8d78:-7fe2</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--570ae188:124761b8d78:-7fe2</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+</layerGroup>

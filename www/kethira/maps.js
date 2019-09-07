@@ -15,9 +15,15 @@ function fly(lon,lat,zom) {
  }
 
 function postLoad() {
-    var rasterTitle =  ['Global',        'Regional',        'Domain'];
-    var rasterLayer =  ['kethira:global','kethira:regional','kethira:domain'];
-    var rasterMaxRes = [2,               .005,              .001];
+    var rasterTitle =  ['Global',            'Regional',            'Domain',
+                        'Local',             'Interior:Sub',        'Interior:Ground',
+                        'Interior:1',        'Interior:2',          'Interior:3'];
+    var rasterLayer =  ['kethira:global',    'kethira:regional',    'kethira:domain',
+                        'kethira:local',     'kethira:interior:sub','kethira:interior:ground',
+                        'kethira:interior:1','kethira:interior:2',  'kethira:interior:3'];
+    var rasterMaxRes = [2,               .005,                     .001,
+                        .00005,          .000001,                  .000001,
+                        .000001,         .000001,                  .000001];
 
     var rasters = [];
     for(i = 0; i < rasterTitle.length; i++) {
@@ -36,7 +42,9 @@ function postLoad() {
 
     map = new ol.Map({
         target: 'map',
-        layers: [ rasters[0], rasters[1], rasters[2] ],
+        layers: [ rasters[0], rasters[1], rasters[2],
+                  rasters[3], rasters[4], rasters[5],
+                  rasters[6], rasters[7], rasters[8]],
         controls: ol.control.defaults().extend([
             new ol.control.FullScreen(),
             new ol.control.LayerSwitcher(),
