@@ -36,8 +36,11 @@ some javascript libraries for ease of use.  (Have a look at the
 acknowledgements.) You can get them directly from these projects, if
 you prefer up-to-date versions.
 
-Unpack the archive directly in `GEOSERVER_HOME/data_dir`.  This will
-create (or update) a directory called
+Unpack the archive directly in `GEOSERVER_HOME/data_dir` such that
+_workspaces_ from the archive maps to _workspaces_ in _data_dir_ and
+_www_ from the archive to _www_ in _data_dir_.  In other words, such
+that the enclosing cryptic directory is not used.  This will create
+(or update) a directory called
 `GEOSERVER_HOME/data_dir/workspaces/images`.  Inside you will find a
 file CONTENTS.md.  The files listed therein you need to create,
 because they will contain copyrighted material that cannot be
