@@ -26,3 +26,13 @@ body {
     padding-top: 1ex;
     font-size: .9em;
 }
+
+.ol-scale-line-inner {
+    border:1px solid #eee;
+    border-right:
+    color:#eee;
+    font-size:10px;
+    text-align:center;
+    margin:1px;
+    will-change:contents,width
+}

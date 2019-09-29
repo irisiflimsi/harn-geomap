@@ -1,0 +1,12 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--125a108c:16d3b07c49e:-5134</id>
+  <name>themeson-caer-1</name>
+  <description>themeson-caer-1</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--4f12561:16ca5824a95:-6c11</id>
+  </workspace>
+  <__default>false</__default>
+  <url>file:workspaces/images/interior/themeson-caer-1.tif</url>
+</coverageStore>

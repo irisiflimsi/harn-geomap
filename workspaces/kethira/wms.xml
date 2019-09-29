@@ -29,8 +29,22 @@
   <schemaBaseURL>http://schemas.opengis.net</schemaBaseURL>
   <verbose>false</verbose>
   <metadata>
-    <entry key="svgRenderer">Batik</entry>
+    <entry key="kmlSuperoverlayMode">auto</entry>
+    <entry key="kmlReflectorMode">refresh</entry>
+    <entry key="loopContinuously">false</entry>
     <entry key="svgAntiAlias">true</entry>
+    <entry key="kmlPlacemark">false</entry>
+    <entry key="kmlKmscore">40</entry>
+    <entry key="mapWrapping">true</entry>
+    <entry key="pngCompression">25</entry>
+    <entry key="jpegCompression">25</entry>
+    <entry key="advancedProjectionHandling">true</entry>
+    <entry key="maxAllowedFrames">2147483647</entry>
+    <entry key="kmlAttr">true</entry>
+    <entry key="svgRenderer">Batik</entry>
+    <entry key="disposalMethod">none</entry>
+    <entry key="scalehintMapunitsPixel">false</entry>
+    <entry key="framesDelay">1000</entry>
   </metadata>
   <bboxForEachCRS>false</bboxForEachCRS>
   <watermark>

@@ -64,17 +64,15 @@ and the Kethiran base map will appear.
 
 ## Preparation
 
-Each file/image in CONTENTS.md needs to be created by you.  For
-general instructions, read on.  Specific instructions for individual
-images can be found in subsections.  Each image refers to a published
-image, which you need to obtain by extracting it from an electronic
-product or scanning a printed copy.  Images will always be assumed to
-just create the "raw" data, not legends or additional text.  I.e. the
-geographic data spreads from left to right and top to bottom.  If you
-create data images, the _png_ format is preferred, because it allows
-you to make regions of the otherwise rectangular image that do not
-contain data transparent.  Don't save you images in any geoserver
-directory yet!
+Each file/image in CONTENTS.md needs to be created by you.  Each image
+refers to a published image, which you need to obtain by extracting it
+from an electronic product or scanning a printed copy.  Images will
+always be assumed to just create the "raw" data, not legends or
+additional text.  I.e. the geographic data spreads from left to right
+and top to bottom.  If you create data images, the _png_ format is
+preferred, because it allows you to make transparent regions of the
+otherwise rectangular image that do not contain data.  Don't save you
+images in any geoserver directory yet!
 
 Start qgis and open _Raster -> Geo referencing_.  This will ask you
 for a image file.  Use the one you just created.  For each image you
@@ -118,65 +116,29 @@ the Harn map inside the _Atlas-Update-pdfs.zip_.  However use
 image; it covers a slightly different area than the other map.
 (columbiagames.com)
 
-### Domain
+### Other Images
 
-#### domain/rethem.tif
+For any other image, the extracting process is similar.  If you
+provide me with proof that you "own" a version of the commercial
+images, I will send the converted GeoTIFF to you (until I get too many
+requests).  For community images I will send them on request (assuming
+I have them).  If I get many requests, I will ask you to contact the
+copyright owners such that I can include the images here and make
+additional, seperate requests obsolete.  For community images this is
+generally not a problem.  In fact, my own I have already included.
+For the commercial images, I expect the process to be different.
+Maybe they will provide their own installation in the future.
 
-This is from the old _Rethem_ module (print only) and I scanned in a
-version that resulted in an image of dimension 6375x4730.  It reaches
-(NW) from the middle of the northern boundary of the hex _Bedenes_ is
-in to the SE corner of the hex _Heroth_ is in.  (columbiagames.com)
-
-#### domain/afarezirs.tif
-
-See Community Maps.
-
-#### domain/denia-marsh.tif
-
-See Community Maps.
-
-### Local
-
-#### local/harn_pottage...
-
-All these maps are arbitrarily placed, where it suited my campaign.
-The naming is such that the _first number_ is the Harn pottage edition
-and the _second number_ the page.  They serve as backdrops for the
-interior maps, so you even if you place them elsewhare the
-relationship between local and interior map is conserved.  See
-Community Maps.  (Mike St. Pierre)
-
-#### local/golotha.tif
-
-I scanned may printed version from _Columbia Games_ to get a 4426x2906
-image.  (columbiagames.com)
-
-### Interior
-
-#### interior/harn_pottage...
-
-See Community Maps.  Also see local maps above for the naming scheme
-and the use you may make of the "randomly" placed locations.  Also
-observe that the images are extracted from the PDFs and I tried to
-make them as "tight" as possible on ground level.  Other levels are
-expanded, so I only needed to create a _points_ file once.  (Mike
-St. Pierre)
-
-#### interior/golotha...
-
-I scanned as scavenged all material I could get my hands on and this
-is a mixture of Community and Company maps.  Under these conditions it
-is as "tight" as possible.  Probably the most difficult to create yet,
-but I hope it will still be of use.
-
-#### interior/kustan_...
-
-Again, use a scan or extract as "tight" as possible.  (Alun
-Reeves/columbiagames.com)
+The generic community maps I converted are all arbitrarily placed,
+where it suited my campaign.  The naming is such that the _first
+number_ is the edition (e.g. _pottage3_) and the _second number_ the
+page.  They serve as backdrops for the interior maps, so even if you
+place them elsewhare the relationship between local and interior map
+is conserved.  See also _Community Maps_.
 
 ## Community Maps
 
-These maps are obtained from _lythia.com_.  I hope to host the
+These maps are mostly obtained from _lythia.com_.  I hope to host the
 converted maps in the future.  Until then you can get them from me
 privately through email, if you prove you are aware of who alleges
 Copyright.

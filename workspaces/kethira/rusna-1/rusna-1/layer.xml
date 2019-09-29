@@ -1,0 +1,15 @@
+<layer>
+  <name>rusna-1</name>
+  <id>LayerInfoImpl--125a108c:16d5f71d74f:-1b06</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fe2</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--125a108c:16d5f71d74f:-1b07</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

@@ -3,7 +3,7 @@
   <workspace>
     <id>WorkspaceInfoImpl--4f12561:16ca5824a95:-6c11</id>
   </workspace>
-  <enabled>false</enabled>
+  <enabled>true</enabled>
   <name>WCS</name>
   <title>Web Coverage Service</title>
   <maintainer>http://geoserver.org/comm</maintainer>

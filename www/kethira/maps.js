@@ -1,18 +1,8 @@
 var map;
 
-function fly(lon,lat,zom) {
-    var location = [lon, lat];
-    var pan = ol.animation.pan({
-        source: map.getView().getCenter()
-    });
-    var zoom = ol.animation.zoom({
-        resolution: map.getView().getResolution()
-    });
-    map.beforeRender(pan);
-    map.beforeRender(zoom);
-    map.getView().setCenter(location);
-    map.getView().setResolution(zom);
- }
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
 
 function postLoad() {
     var rasterTitle =  ['Global',            'Regional',            'Domain',
@@ -26,6 +16,8 @@ function postLoad() {
                         .000001,         .000001,                  .000001];
 
     var rasters = [];
+    var resolutions = Array.from(Array(22), (item, index) => 0.703125/Math.pow(2, index));
+    var matrixIds = Array.from(Array(22), (item, index) => 'EPSG:4326:' + index);
     for(i = 0; i < rasterTitle.length; i++) {
         rasters.push(new ol.layer.Tile({
             title: rasterTitle[i],
