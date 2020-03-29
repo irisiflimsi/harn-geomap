@@ -1,3 +1,62 @@
+# Harn Webmap Project
+
+## Table of Contents
+
+1. [Basic Installation](#basic-installation)
+2. [Data Installation](#data-installation)
+3. [Usage](#usage)
+4. [Preparation](#preparation)
+5. [Community Maps](#community-maps)
+6. [Do-it-yourself](#do-it-yourself)
+7. [Acknowledgements](#acknowledgements)
+
+## Basic Installation
+
+You need to install _geoserver_ and _qgis_.  Depending on the OS you
+use, installation looks differently.  For geoserver, install as
+described here: [Geoserver
+Installation](https://docs.geoserver.org/stable/en/user/installation/index.html).
+
+Installing _qgis_ is not difficult either.  For instance, on _Ubuntu_,
+all it takes is `sudo apt-get install qgis`.  Also see the [QGIS
+english download
+page](https://www.qgis.org/en/site/forusers/download.html).  Make sure
+you also have the extension _Raster -> Geo referencing_ available.
+
+---
+
+In the following we use `GEOSERVER_HOME` to denote the place were you
+have installed _geoserver_.
+
+## Data Installation
+
+Download the archive from the header.  This includes the important
+premade data files you need to get started.  The archive also includes
+some javascript libraries for ease of use.  (Have a look at the
+acknowledgements.) You can get them directly from these projects, if
+you prefer up-to-date versions.
+
+Unpack the archive directly in `GEOSERVER_HOME/data_dir` such that
+_workspaces_ from the archive maps to _workspaces_ in _data_dir_ and
+_www_ from the archive to _www_ in _data_dir_.  In other words, such
+that the enclosing cryptic directory is not used.  This will create
+(or update) a directory called
+`GEOSERVER_HOME/data_dir/workspaces/images`.  Inside you will find a
+file CONTENTS.md.  The files listed therein you need to create,
+because they will contain copyrighted material that cannot be
+published here.
+
+## Usage
+
+Once you have prepared the necessary files, you need to start
+_geoserver_ in case you haven't done so yet.  (Starting is part of the
+installation instructions, so it is likely that you already did so.)
+You may already read on how to change the default admin password.
+
+**Without preparing at least _kethira.tif_, you will only see an empty
+  page!**
+
+Direct your browser to
 ```
 http://localhost:8080/geoserver/www/kethira/maps.html
 ```
