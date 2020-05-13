@@ -1,32 +1,36 @@
 # Harn Webmap Project
 
-## Table of Contents
+## Basics
 
-1. [Basic Installation](#basic-installation)
-2. [Data Installation](#data-installation)
-3. [Usage](#usage)
-4. [Preparation](#preparation)
-5. [Community Maps](#community-maps)
-6. [Do-it-yourself](#do-it-yourself)
-7. [Acknowledgements](#acknowledgements)
+This project allows you to setup a world map project on your own.  The
+basis for this are GeoTIFF files, most of which need to be created or
+downloaded separately.  Only a few of the images, to which I have
+sufficient rights are included in the archive you can download here.
+More on this below, for now assume you have a bunch of these GeoTiff
+files.
 
-## Basic Installation
+Installing _qgis_ is not difficult.  For instance, on _Ubuntu_, all it
+takes is `sudo apt-get install qgis`.  Also see the [QGIS english
+download page](https://www.qgis.org/en/site/forusers/download.html).
+To create your own GeoTIFFs, you need make sure you also have the
+extension _Raster -> Geo referencing_ available.
 
-You need to install _geoserver_ and _qgis_.  Depending on the OS you
+Load all the files you want into _qgis_ and you are done.  You can
+sort the layers, remove some and add some, zoom in and out.  The
+_qgis_ presentation of the collection is only visible on your PC.  If
+you want to provide information to others via the web, you need a
+server.
+
+In that case I suggest to install _geoserver_.  Depending on the OS you
 use, installation looks differently.  For geoserver, install as
 described here: [Geoserver
 Installation](https://docs.geoserver.org/stable/en/user/installation/index.html).
 
-Installing _qgis_ is not difficult either.  For instance, on _Ubuntu_,
-all it takes is `sudo apt-get install qgis`.  Also see the [QGIS
-english download
-page](https://www.qgis.org/en/site/forusers/download.html).  Make sure
-you also have the extension _Raster -> Geo referencing_ available.
-
 ---
 
 In the following we use `GEOSERVER_HOME` to denote the place were you
-have installed _geoserver_.
+have installed _geoserver_. If you only use _qgis_, ignore the
+paragraphs for _geoserver_.
 
 ## Data Installation
 
@@ -41,17 +45,21 @@ _workspaces_ from the archive maps to _workspaces_ in _data_dir_ and
 _www_ from the archive to _www_ in _data_dir_.  In other words, such
 that the enclosing cryptic directory is not used.  This will create
 (or update) a directory called
-`GEOSERVER_HOME/data_dir/workspaces/images`.  Inside you will find a
-file CONTENTS.md.  The files listed therein you need to create,
-because they will contain copyrighted material that cannot be
-published here.
+`GEOSERVER_HOME/data_dir/workspaces/images`.
 
-## Usage
+You will also find a file CONTENTS.md.  The files listed therein can
+be obtained from me, when the originals were hosted on lythia.com.
+For canon material we need to find another mode of proof that you
+actually could create the GeoTIFF yourself from owned material.
 
 Once you have prepared the necessary files, you need to start
 _geoserver_ in case you haven't done so yet.  (Starting is part of the
 installation instructions, so it is likely that you already did so.)
 You may already read on how to change the default admin password.
+
+You then should create the sub-directories as data stores inside of
+_geoserver_ as _Image Mosaic_ and publish them as layers of the same
+name.
 
 **Without preparing at least _kethira.tif_, you will only see an empty
   page!**
@@ -62,7 +70,7 @@ http://localhost:8080/geoserver/www/kethira/maps.html
 ```
 and the Kethiran base map will appear.
 
-## Preparation
+## Preparation of your own Images
 
 With each point file you can create a GeoTIFF file (see below).  Each
 image refers to a published image, which you need to obtain by
