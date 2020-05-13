@@ -27,12 +27,85 @@ body {
     font-size: .9em;
 }
 
+.ol-control .panel {
+    color: #eee;
+    background-color: rgba(100,60,136,.5);
+    font-weight: 700;
+    border-radius: 4px;
+    border-color: #eee;
+}
+
+.ol-control .panel ul {
+    padding: 2px;
+    margin: 2px;
+}
+
+.ol-scale-line {
+    border-radius: 0px;
+    border: 2px solid #eee;
+}
+
 .ol-scale-line-inner {
-    border:1px solid #eee;
-    border-right:
-    color:#eee;
-    font-size:10px;
-    text-align:center;
-    margin:1px;
+    border: 0px solid #eee;
+    color: #eee;
+    font-size: 10px;
+    text-align: center;
+    margin: 1px;
+    will-change: contents,width
+}
+
+.ol-scale-line:after {
+    padding: 2px;
+    border: 2px solid #eee;
+    content: " ";
+    display: inline-block;
+    background: #eee;
+    background-clip: padding-box;
+    left: 100%;
+    top: -2px;
+    height: calc(100% - 4px);
+    width: 100%;
+    position: absolute;
     will-change:contents,width
+}
+
+.ol-popup {
+    position: absolute;
+    bottom: 12px;
+    left: -150px;
+    min-width: 300px;
+}
+
+.ol-popup:after, .ol-popup:before {
+    top: 100%;
+    border: 15 solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.ol-popup-closer {
+    text-decoration: none;
+    position: absolute;
+    top: 2px;
+    right: 8px;
+}
+
+.ol-popup-closer:after {
+    content: "¤";
+    color: #fff;
+}
+
+.ol-popup-inner {
+    border-radius:4px;
+    padding:4px;
+    border:2px solid #fff;
+    background-color: rgba(0,60,130,.5);
+    text-align: left;
+}
+
+.ol-popup-inner p {
+    margin-bottom: -2px;
 }

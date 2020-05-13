@@ -22,5 +22,8 @@ my $y2g = $latitude - .0005;
 system("gdal_translate -of GTiff -gcp $x1p $y1p $x1g $y1g -gcp $x1p $y2p $x1g $y2g "
     ."-gcp $x2p $y1p $x2g $y1g -gcp $x2p $y2p $x2g $y2g $infile /tmp/tmp.png") == 0
     or die ("img2geotiff.py pixels-per-50m LONG,LAT infile outfile");
-system("gdalwarp -r cubic -order 1 -co COMPRESS=LZW /tmp/tmp.png $outfile") == 0
-    or die ("img2geotiff.py pixels LONG,LAT infile outfile");
+system("gdalwarp -r cubic -order 1 -co COMPRESS=LZW /tmp/tmp.png /tmp/tmp2.png") == 0
+    or die ("img2geotiff.py pixels-per-50m LONG,LAT infile outfile");
+system("gdalwarp -t_srs EPSG:4326 /tmp/tmp2.png $outfile") == 0
+    or die ("img2geotiff.py pixels-per-50m LONG,LAT infile outfile");
+system("rm /tmp/tmp.png /tmp/tmp2.png") == 0
