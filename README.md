@@ -137,14 +137,14 @@ page.  They serve as backdrops for the interior maps, so even if you
 place them elsewhare the relationship between local and interior map
 is conserved.  See also _Community Maps_.
 
-## Community Maps
+#### Community Maps
 
 These maps are mostly obtained from _lythia.com_.  I hope to host the
 converted maps in the future.  Until then you can get them from me
 privately through email, if you prove you are aware of who alleges
 Copyright.
 
-## Privtea Maps
+#### Private Maps
 
 Basically this works as the general import for pre-existing maps.  You
 have to create the point files yourself.  To get the scale right, make
