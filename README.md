@@ -1,44 +1,41 @@
-# Harn Webmap Project
+# Harn Worldmap Project
 
 ## Basics
 
-This project allows you to setup a world map project on your own.  The
-basis for this are GeoTIFF files, most of which need to be created or
-downloaded separately.  Only a few of the images, to which I have
-sufficient rights are included in the archive you can download here.
-More on this below, for now assume you have a bunch of these GeoTiff
-files.
+Using many geo-coordinate features - as you see for instance in Google
+Maps Sattelite Imagery - for Hârn is actually quite simple.  All the
+relevant information can be stored in a format called GeoTIFF.  You
+load a bundle of them into the relevant program (see below) and you
+are set.  Further features, such as showing the maps in a browser, may
+require more effort.
+
+The archive you can download from this page contains a couple of
+GeoTIFF files, which I can freely distribute.  You will also see a
+_CONTENTS.md_ file in the archive, which shows you how many more are
+available.  I cannot publish them without the proper license.  Many of
+them are based on _lythia.com_ images and since they can freely be
+downloaded, you can send me a private message and I will forward the
+GeoTIFF files you need.  That assumes that you actually could create
+the files yourself: you have the base material and in the following I
+will provide you with the procedure.  This procedure you can apply to
+any other image you want to, including official maps you bought from
+Columbia Games or Kelestia.com.
+
+## QGis
 
 Installing _qgis_ is not difficult.  For instance, on _Ubuntu_, all it
 takes is `sudo apt-get install qgis`.  Also see the [QGIS english
 download page](https://www.qgis.org/en/site/forusers/download.html).
-To create your own GeoTIFFs, you need make sure you also have the
-extension _Raster -> Geo referencing_ available.
+If all you want to do is get started, load the images into _qgis_.
+You are set.
 
-Load all the files you want into _qgis_ and you are done.  You can
-sort the layers, remove some and add some, zoom in and out.  The
-_qgis_ presentation of the collection is only visible on your PC.  If
-you want to provide information to others via the web, you need a
-server.
-
-In that case I suggest to install _geoserver_.  Depending on the OS you
-use, installation looks differently.  For geoserver, install as
-described here: [Geoserver
-Installation](https://docs.geoserver.org/stable/en/user/installation/index.html).
-
----
+**Without preparing at least _kethira.tif_, you will most likely only
+see an empty page!**
 
 In the following we use `GEOSERVER_HOME` to denote the place were you
-have installed _geoserver_. If you only use _qgis_, ignore the
-paragraphs for _geoserver_.
-
-## Data Installation
-
-Download the archive from the header.  This includes the important
-premade data files you need to get started.  The archive also includes
-some javascript libraries for ease of use.  (Have a look at the
-acknowledgements.) You can get them directly from these projects, if
-you prefer up-to-date versions.
+have installed _geoserver_.  If you only use _qgis_, ignore the
+paragraphs for _geoserver_; this will be the directory you unpack the
+archive to.
 
 Unpack the archive directly in `GEOSERVER_HOME/data_dir` such that
 _workspaces_ from the archive maps to _workspaces_ in _data_dir_ and
@@ -47,57 +44,53 @@ that the enclosing cryptic directory is not used.  This will create
 (or update) a directory called
 `GEOSERVER_HOME/data_dir/workspaces/images`.
 
-You will also find a file CONTENTS.md.  The files listed therein can
-be obtained from me, when the originals were hosted on lythia.com.
-For canon material we need to find another mode of proof that you
-actually could create the GeoTIFF yourself from owned material.
+## Do-It-Yourself
+
+To create your own GeoTIFFs, you need make sure you also have the
+extension _Raster -> Geo referencing_ available.  For the base images
+use the format _png_ with an alpha channel.
+
+Start _qgis_ and open _Raster -> Geo referencing_.  This will ask you
+for an image file.  Use the one you just created.  For each image you
+will have either a corresponding points file in
+`GEOSERVER_HOME/data_dir/kethira/points/`, you have created your own.
+Load that.  Alteratively, you can pick anchor points from another map
+you already loaded, but for that you must, well, load a pre-existing
+map.  (They point files provided were all used by myself when creating
+the GeoTIFFs from _CONTENTS.md_.)  >>>
+
+Two more things need to be done, before you can create the data image
+file by pressing the Go icon (second menu icon from the left), which
+will be a so-called GeoTIFF.  First, select the destination raster.
+This should be the corresponding entry in
+`GEOSERVER_HOME/data_dir/images/`, so _geoserver_ can immediately pick
+it up.  Second, select _EPSG:4326_ as Destination CRS.  This should
+always be the case and should even be the default in _qgis_.
+
+For some of the main files, more detailed explanations are given
+below.
+
+## Geoserver
+
+As said before, I suggest to install _geoserver_.  That makes the
+"daily work" much easier, as you can view the maps through the browser
+of your choice.  Depending on the OS you use, installation looks
+differently.  Install as described here: [Geoserver
+Installation](https://docs.geoserver.org/stable/en/user/installation/index.html)
 
 Once you have prepared the necessary files, you need to start
-_geoserver_ in case you haven't done so yet.  (Starting is part of the
+geoserver in case you haven’t done so yet.  (Starting is part of the
 installation instructions, so it is likely that you already did so.)
-You may already read on how to change the default admin password.
 
-You then should create the sub-directories as data stores inside of
-_geoserver_ as _Image Mosaic_ and publish them as layers of the same
-name.
-
-**Without preparing at least _kethira.tif_, you will only see an empty
-  page!**
-
-Direct your browser to
+You then should create data stores according to the sub-directories
+(in images) as Image Mosaic and publish them as layers of the same
+names.  Direct your browser to
 ```
 http://localhost:8080/geoserver/www/kethira/maps.html
 ```
 and the Kethiran base map will appear.
 
-## Preparation of your own Images
-
-With each point file you can create a GeoTIFF file (see below).  Each
-image refers to a published image, which you need to obtain by
-extracting it from an electronic product or scanning a printed copy.
-Images will always be assumed to just create the "raw" data, not
-legends or additional text.  I.e. the geographic data spreads from
-left to right and top to bottom.  If you create data images, the _png_
-format is preferred, because it allows you to make transparent regions
-of the otherwise rectangular image that do not contain data.  Don't
-save you images in any geoserver directory yet!
-
-Start qgis and open _Raster -> Geo referencing_.  This will ask you
-for a image file.  Use the one you just created.  For each image you
-will have a corresponding points file in
-`GEOSERVER_HOME/data_dir/kethira/points/`.  Load this (fourth menu
-icon from the left).  Most of the time, the non-zero part of the
-`srcX` entry you now see at the bottom equals the width your image and
-`srcY`to the (negative) height.  Modify this accordingly, if your
-image has different dimensions.
-
-Two more things need to be done, before you can create the data image
-file by pressing the _Go_ icon (second menu icon from the left).  This
-will be a so-called _GeoTIFF_ image.  First, select the _destination
-raster_.  This should be the corresponding entry in
-`GEOSERVER_HOME/data_dir/images/`, so _geoserver_ can immediately pick
-it up.  Second, select _EPSG:4326_ as _Destination CRS_.  This should
-always be the case.
+## Details on Specific Images
 
 ### Global
 
