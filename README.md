@@ -63,7 +63,7 @@ Two more things need to be done, before you can create the data image
 file by pressing the Go icon (second menu icon from the left), which
 will be a so-called GeoTIFF.  First, select the destination raster.
 This should be the corresponding entry in
-`GEOSERVER_HOME/data_dir/images/`, so _geoserver_ can immediately pick
+`GEOSERVER_HOME/data_dir/workspaces/images/`, so _geoserver_ can immediately pick
 it up.  Second, select _EPSG:4326_ as Destination CRS.  This should
 always be the case and should even be the default in _qgis_.
 
@@ -125,7 +125,7 @@ images, I will send the converted GeoTIFF to you (until I get too many
 requests).  For community images I will send them on request (assuming
 I have them).  If I get many requests, I will ask you to contact the
 copyright owners such that I can include the images here and make
-additional, seperate requests obsolete.  For community images this is
+additional, separate requests obsolete.  For community images this is
 generally not a problem.  In fact, my own I have already included.
 For the commercial images, I expect the process to be different.
 Maybe they will provide their own installation in the future.
@@ -144,7 +144,7 @@ converted maps in the future.  Until then you can get them from me
 privately through email, if you prove you are aware of who alleges
 Copyright.
 
-## Do-it-yourself
+## Privtea Maps
 
 Basically this works as the general import for pre-existing maps.  You
 have to create the point files yourself.  To get the scale right, make
@@ -163,7 +163,7 @@ vertical pixel difference : latitude difference
 ```
 
 and then shift the whole set according to where you want it.  A point
-of advice: QGIS doesn't really show enough significant digits) maybe
+of advice: _qgis_ doesn't really show enough significant digits) maybe
 there is a setting I didn't find) so I did mine with an ASCII text
 editor and imported the point file.
 
@@ -173,8 +173,8 @@ If have a bit of experience with scripts (perl, bash, python, ...),
 the included _img2geotif.pl_ may be of help.  It reduces the effort
 you need to spend to find pixel differences and also does not require
 QGIS as it creates GeoTIFF files directly.  It is the reason why I
-don't provide any further point files at this time.  You will need to
-install a the perl module _Image::Magick_.
+don't provide point files for all images listed in _CONTENT.md_.
+You will need to install a the perl module _Image::Magick_.
 
 ## Acknowledgements
 
