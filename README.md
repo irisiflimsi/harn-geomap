@@ -57,7 +57,7 @@ will have either a corresponding points file in
 Load that.  Alteratively, you can pick anchor points from another map
 you already loaded, but for that you must, well, load a pre-existing
 map.  (They point files provided were all used by myself when creating
-the GeoTIFFs from _CONTENTS.md_.)  >>>
+the GeoTIFFs from _CONTENTS.md_.) 
 
 Two more things need to be done, before you can create the data image
 file by pressing the Go icon (second menu icon from the left), which
