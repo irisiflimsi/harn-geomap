@@ -151,3 +151,9 @@ harn-geomap/img2geotif.pl 175 -17.7398,43.4842 invarnay.png invarnay.tif
 harn-geomap/img2geotif.pl 175 -17.73785,43.48314 invarnay-C.png invarnay-C.tif
 harn-geomap/img2geotif.pl 120 -6.867,54.3088 froyaheim.png froyaheim.tif
 harn-geomap/img2geotif.pl 120 -9.233,54.292 kyriheim.png kyriheim.tif
+harn-geomap/img2geotif.pl 125 -23.665,43.2814 moleryn.png moleryn.tif 
+harn-geomap/img2geotif.pl 125 -19.253,47.198 noron.png noron.tif
+harn-geomap/img2geotif.pl 120 -7.732,54.946 pelyn.png pelyn.tif
+harn-geomap/img2geotif.pl 120 -21.3998,43.5884 pesino.png pesino.tif
+harn-geomap/img2geotif.pl 120 -21.584,49.161 pled.png pled.tif
+harn-geomap/img2geotif.pl 120 -21.0532,49.0663 quimen.png quimen.tif
