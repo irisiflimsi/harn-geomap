@@ -129,7 +129,7 @@ harn-geomap/img2geotif.pl 120 -15.97929,45.92936 balhafen.png balhafen.tif
 harn-geomap/img2geotif.pl 135 -8.49406,53.76828 lidargaardar.png lidargaarda.tif
 harn-geomap/img2geotif.pl 124 -19.69450,49.23890 aselt.png aselt.tif
 harn-geomap/img2geotif.pl 92 -11.41363,50.87630 ulrin.png ulrin.tif
-harn-geomap/img2geotif.pl 2130 -19.4874731,48.4372783 kelts-barrow-*.png kelts-barrow-*.tif
+harn-geomap/img2geotif.pl 2130 -19.4874731,48.4372783 kelts-barrow-*.png kelts-barrow-*.tif # expand this separately by hand
 harn-geomap/img2geotif.pl 110 -19.6515,49.28170 sherwyn.png sherwyn.tif # local
 harn-geomap/img2geotif.pl 1300 -18.222871,45.433720 minarsas-ruin.png minarsas-ruin.tif
 harn-geomap/img2geotif.pl 120 -22.7470,48.3678 arathel.png arathel.tif
@@ -157,3 +157,19 @@ harn-geomap/img2geotif.pl 120 -7.732,54.946 pelyn.png pelyn.tif
 harn-geomap/img2geotif.pl 120 -21.3998,43.5884 pesino.png pesino.tif
 harn-geomap/img2geotif.pl 120 -21.584,49.161 pled.png pled.tif
 harn-geomap/img2geotif.pl 120 -21.0532,49.0663 quimen.png quimen.tif
+harn-geomap/img2geotif.pl 120 -18.838,45.547 roganter.png roganter.tif
+harn-geomap/img2geotif.pl 120 -25.676,41.499 sarkum.png sarkum.tif
+harn-geomap/img2geotif.pl 120 -25.165,44.183 shostim.png shostim.tif
+harn-geomap/img2geotif.pl 1800 -22.81495,43.25275 taztos-hill.png taztos-hill.tif
+harn-geomap/img2geotif.pl 120 -23.1819,43.8801 telen.png telen.tif
+harn-geomap/img2geotif.pl 120 -25.2932,43.3265 tesien.png tesien.tif
+harn-geomap/img2geotif.pl 120 -21.992,48.752 turenborg.png turenborg.tif
+harn-geomap/img2geotif.pl 120 -23.7078,46.1866 ushet.png ushet.tif
+harn-geomap/img2geotif.pl 1200 -23.70748,46.18757 ushet-*.png ushet-*.tif # expand this separately by hand
+harn-geomap/img2geotif.pl 120 -7.357,54.607 vulenheim.png vulenheim.tif
+harn-geomap/img2geotif.pl 120 -17.6326,46.4156 zerhun.png zerhun.tif
+harn-geomap/img2geotif.pl 120 -17.8347,43.3906 drydere.png drydere.tif
+harn-geomap/img2geotif.pl 120 -7.357,54.607 vulenheim.png vulenheim.tif
+harn-geomap/img2geotif.pl 180 -22.814,43.251 taztos.png taztos.tif
+harn-geomap/img2geotif.pl 180 -16.407,41.841 surint-alwa.png surint-alwa.tif
+harn-geomap/img2geotif.pl 120 -17.642,46.762 habe.png habe.tif
