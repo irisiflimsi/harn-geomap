@@ -173,3 +173,10 @@ harn-geomap/img2geotif.pl 120 -7.357,54.607 vulenheim.png vulenheim.tif
 harn-geomap/img2geotif.pl 180 -22.814,43.251 taztos.png taztos.tif
 harn-geomap/img2geotif.pl 180 -16.407,41.841 surint-alwa.png surint-alwa.tif
 harn-geomap/img2geotif.pl 120 -17.642,46.762 habe.png habe.tif
+harn-geomap/img2geotif.pl 405 -20.248,46.363 myengrad.png myengrad.tif
+harn-geomap/img2geotif.pl 405 -20.223,46.352 taelda-myen.png taelda-myen.tif
+harn-geomap/img2geotif.pl 600 -20.244,46.389 myen-mines.png myen-mines.tif
+harn-geomap/img2geotif.pl 400 -20.441,46.704 myen-jarin.png myen-jarin.tif
+harn-geomap/img2geotif.pl 400 -20.508,46.603 myen-mines-local.png myen-mines-local.tif
+harn-geomap/img2geotif.pl 780 -20.50723,46.60353 myen-mines-G.png myen-mines-G.tif
+harn-geomap/img2geotif.pl 780 -20.50723,46.60353 myen-mines-C.png myen-mines-C.tif
