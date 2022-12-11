@@ -121,6 +121,7 @@ harn-geomap/img2geotif.pl 130 -18.60404,45.20129 nubeth-chantry.png nubeth-chant
 harn-geomap/img2geotif.pl 70 -18.7589964,45.838 ominstru.png ominstru.tif
 harn-geomap/img2geotif.pl 4 -8.3916,41.5853 ostelones-area.png ostelones-area.tif
 harn-geomap/img2geotif.pl 120 -8.40569,41.55309 ostelones.png ostelones.tif
+harn-geomap/img2geotif.pl 126 -20.333,47.263 ovien-ford.png ovien-ford.tif
 harn-geomap/img2geotif.pl 115 -23.95091,42.49725 pagel.png pagel.tif
 harn-geomap/img2geotif.pl 90 -16.1528,43.2291 parnam.png parnam.tif
 harn-geomap/img2geotif.pl 135 -8.71865,44.59212 pathwys.png pathwys.tif
