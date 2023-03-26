@@ -93,6 +93,7 @@ harn-geomap/img2geotif.pl 2130 -19.4874731,48.4372783 kelts-barrow-*.png kelts-b
 harn-geomap/img2geotif.pl 120 -24.52926,44.75273 keserin.png keserin.tif
 harn-geomap/img2geotif.pl 120 -23.791,46.247 kiraz.png kiraz.tif
 harn-geomap/img2geotif.pl 78 -21.5297600,44.96191 korego.png korego.tif
+harn-geomap/img2geotif.pl 2000 -17.9565,44.8185 krog-*.png krog-*.tif # expand this separately by hand
 harn-geomap/img2geotif.pl 105 -17.45412,43.44561 kremshak.png kremshak.tif
 harn-geomap/img2geotif.pl 120 -9.233,54.292 kyriheim.png kyriheim.tif
 harn-geomap/img2geotif.pl 50 -15.9589,42.1899 labret.png labret.tif
