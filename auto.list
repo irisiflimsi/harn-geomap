@@ -34,6 +34,8 @@ harn-geomap/img2geotif.pl 110 -24.03336,43.46943 coranan.png coranan.tif
 harn-geomap/img2geotif.pl 50 -16.4121,42.1562 cundras.png cundras.tif
 harn-geomap/img2geotif.pl 90 -16.3550,43.3490 cupeth.png cupeth.tif
 harn-geomap/img2geotif.pl 100 -21.4447,48.6590 daasen.png daasen.tif
+harn-geomap/img2geotif.pl 150 -17.887,43.195 denlund.png denlund.tif
+harn-geomap/img2geotif.pl 600 -17.903,43.224 denlund-chantry-*.png denlund-*.tif # expand this separately by hand
 harn-geomap/img2geotif.pl 135 -9.35867,44.31503 dinibor.png dinibor.tif
 harn-geomap/img2geotif.pl 70 -17.83225,43.44528 docialon.png docialon.tif
 harn-geomap/img2geotif.pl 120 -17.8347,43.3906 drydere.png drydere.tif
@@ -52,6 +54,8 @@ harn-geomap/img2geotif.pl 120 -19.0779,47.9106 fort-nyslud.png fort-nyslud.tif
 harn-geomap/img2geotif.pl 50 -16.1396,42.0096 fosumo.png fosumo.tif
 harn-geomap/img2geotif.pl 120 -6.867,54.3088 froyaheim.png froyaheim.tif
 harn-geomap/img2geotif.pl 120 -22.5972,48.4672 genheim.png genheim.tif
+harn-geomap/img2geotif.pl 140 -24.448,44.038 gerdel.png gerdel.tif
+harn-geomap/img2geotif.pl 600 -24.4488,44.03915 gerdel-balefire-C.png gerdel-balefire-C.tif
 harn-geomap/img2geotif.pl 60 -18.666,45.891 getha.png getha.tif
 harn-geomap/img2geotif.pl 120 -15.3197,41.3046 glenoth-cgi.png glenoth.tif
 harn-geomap/img2geotif.pl 90 -15.3197,41.3046 glenoth.png glenoth.tif
@@ -93,6 +97,7 @@ harn-geomap/img2geotif.pl 2130 -19.4874731,48.4372783 kelts-barrow-*.png kelts-b
 harn-geomap/img2geotif.pl 120 -24.52926,44.75273 keserin.png keserin.tif
 harn-geomap/img2geotif.pl 120 -23.791,46.247 kiraz.png kiraz.tif
 harn-geomap/img2geotif.pl 78 -21.5297600,44.96191 korego.png korego.tif
+harn-geomap/img2geotif.pl 215 -19.786,45.964 krazma-new-*.png krazma-new-*.tif # expand this separately by hand
 harn-geomap/img2geotif.pl 2000 -17.9565,44.8185 krog-*.png krog-*.tif # expand this separately by hand
 harn-geomap/img2geotif.pl 105 -17.45412,43.44561 kremshak.png kremshak.tif
 harn-geomap/img2geotif.pl 120 -9.233,54.292 kyriheim.png kyriheim.tif
@@ -133,6 +138,10 @@ harn-geomap/img2geotif.pl 140 -21.8228,48.0625 pethwys.png pethwys.tif
 harn-geomap/img2geotif.pl 120 -21.584,49.161 pled.png pled.tif
 harn-geomap/img2geotif.pl 50 -15.9854,42.2564 pouka.png pouka.tif
 harn-geomap/img2geotif.pl 50 -15.9994,42.1626 purque.png purque.tif
+harn-geomap/img2geotif.pl 140 -25.524,45.95 quarien-earthmaster.png quarien-earthmaster.tif
+harn-geomap/img2geotif.pl 500 -25.52462,45.95 quarien-earthmaster-C.png quarien-earthmaster-C.tif
+harn-geomap/img2geotif.pl 135 -24.786,44.277 quarien-mine.png quarien-mine.tif
+harn-geomap/img2geotif.pl 500 -24.7859,44.27505 quarien-mine-C*.png quarien-mine-C*.tif # expand this separately by hand
 harn-geomap/img2geotif.pl 120 -21.0532,49.0663 quimen.png quimen.tif
 harn-geomap/img2geotif.pl 50 -16.1202,41.9804 racyn.png racyn.tif
 harn-geomap/img2geotif.pl 120 -24.3822,43.7507 ravin.png ravin.tif
@@ -152,6 +161,7 @@ harn-geomap/img2geotif.pl 180 -19.28,44.03955 shomos.png shomos.tif
 harn-geomap/img2geotif.pl 120 -25.165,44.183 shostim.png shostim.tif
 harn-geomap/img2geotif.pl 90 -23.3429,45.1339 sirion-2.png sirion-2.tif
 harn-geomap/img2geotif.pl 120 -7.98324,43.35465 sonise.png sonise.tif
+harn-geomap/img2geotif.pl 600 -18.715,47.007 sternis-kyg-*.png sternis-kyg-*.tif # expand this separately by hand
 harn-geomap/img2geotif.pl 135 -8.5384,53.8683 stimby.png stimby.tif
 harn-geomap/img2geotif.pl 180 -16.407,41.841 surint-alwa.png surint-alwa.tif
 harn-geomap/img2geotif.pl 405 -20.223,46.352 taelda-myen.png taelda-myen.tif
