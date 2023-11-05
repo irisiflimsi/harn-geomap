@@ -21,6 +21,16 @@ will provide you with the procedure.  This procedure you can apply to
 any other image you want to, including official maps you bought from
 Columbia Games or Kelestia.com.
 
+I have added the database for the points of interest I have
+geo-located in this manner.  You can find them in the
+_workspaces/kethira_ subdirectory.  You can import them into _qgis_ or
+_geoserver_ in vector data.  There has been some discussion in the
+Harnforum about projection and it is far from obvious which one is
+canonical.  I therefore added a basic Hârn image with geo coordinates
+for your convenience to more easily understand where everything is
+located in "my" projection.  Again, import as raster data into the
+tool of your choice.
+
 ## QGis
 
 Installing _qgis_ is not difficult.  For instance, on _Ubuntu_, all it
