@@ -146,6 +146,7 @@ harn-geomap/img2geotif.pl 120 -21.0532,49.0663 quimen.png quimen.tif
 harn-geomap/img2geotif.pl 50 -16.1202,41.9804 racyn.png racyn.tif
 harn-geomap/img2geotif.pl 120 -24.3822,43.7507 ravin.png ravin.tif
 harn-geomap/img2geotif.pl 120 -18.838,45.547 roganter.png roganter.tif
+harn-geomap/img2geotif.pl 115 -17.655,44.66 rolyn.png rolyn.tif
 harn-geomap/img2geotif.pl 70 -18.04444,43.52011 rynath.png rynath.tif
 harn-geomap/img2geotif.pl 50 -16.0072,42.1317 rythik.png rythik.tif
 harn-geomap/img2geotif.pl 120 -25.676,41.499 sarkum.png sarkum.tif
@@ -170,6 +171,7 @@ harn-geomap/img2geotif.pl 1800 -22.81495,43.25275 taztos-hill.png taztos-hill.ti
 harn-geomap/img2geotif.pl 180 -22.814,43.251 taztos.png taztos.tif
 harn-geomap/img2geotif.pl 120 -23.1819,43.8801 telen.png telen.tif
 harn-geomap/img2geotif.pl 120 -25.2932,43.3265 tesien.png tesien.tif
+harn-geomap/img2geotif.pl 690 -23.47,45.96 th-kyg-*.png th-kyg-*.tif # expand this separately by hand
 harn-geomap/img2geotif.pl 110 -16.4881,43.5244 thay.png thay.tif
 harn-geomap/img2geotif.pl 115 -18.8413,49.1166 thoen.png thoen.tif
 harn-geomap/img2geotif.pl 1200 -10.739,40.564 tolbeth-*.png tolbeth-*.tif # expand this separately by hand
