@@ -53,6 +53,9 @@ harn-geomap/img2geotif.pl 150 -21.98289,48.80853 fjaga.png fjaga.tif
 harn-geomap/img2geotif.pl 120 -19.0779,47.9106 fort-nyslud.png fort-nyslud.tif
 harn-geomap/img2geotif.pl 50 -16.1396,42.0096 fosumo.png fosumo.tif
 harn-geomap/img2geotif.pl 120 -6.867,54.3088 froyaheim.png froyaheim.tif
+harn-geomap/img2geotif.pl 120 -25.5,41.62 gemala-inn.png gemala-inn.tif
+harn-geomap/img2geotif.pl 1200 -25.49904,41.62332 gemala-inn-chapel.png gemala-inn-chapel.tif
+harn-geomap/img2geotif.pl 1200 -25.502098,41.620525 gemala-inn-trapper.png gemala-inn-trapper.tif
 harn-geomap/img2geotif.pl 120 -22.5972,48.4672 genheim.png genheim.tif
 harn-geomap/img2geotif.pl 140 -24.448,44.038 gerdel.png gerdel.tif
 harn-geomap/img2geotif.pl 600 -24.4488,44.03915 gerdel-balefire-C.png gerdel-balefire-C.tif
