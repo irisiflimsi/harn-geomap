@@ -25,6 +25,7 @@ harn-geomap/img2geotif.pl 105 -21.11661,46.94514 bwaft.png bwaft.tif
 harn-geomap/img2geotif.pl 115 -20.99856,47.80749 can.png can.tif
 harn-geomap/img2geotif.pl 120 -23.4190,45.1668 carved-1.png carved-1.tif
 harn-geomap/img2geotif.pl 120 -23.0278,44.8567 carved-2.png carved-2.tif
+harn-geomap/img2geotif.pl 900 -18.6986,46.0496 chalinar-*.png chalinar-*.tif # expand this separately by hand
 harn-geomap/img2geotif.pl 160 -18.897,45.992 charmic.png charmic.tif
 harn-geomap/img2geotif.pl 1200 -24.81536,41.65235 chendy-crypt.png chendy-crypt.tif
 harn-geomap/img2geotif.pl 115 -15.8263925,40.3822619 cherafir-plus.png cherafir-plus.tif
