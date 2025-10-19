@@ -47,6 +47,7 @@ harn-geomap/img2geotif.pl 115 -20.98259,47.81256 enedayleld.png enedayleld.tif
 harn-geomap/img2geotif.pl 50 -15.9018,42.1320 evire.png evire.tif
 harn-geomap/img2geotif.pl 120 -17.6598,46.081 fana.png fana.tif
 harn-geomap/img2geotif.pl 50 -15.9951,42.2110 fehin.png fehin.tif
+harn-geomap/img2geotif.pl 120 -17.675,43.255 feirnar.png feirnar.tif
 harn-geomap/img2geotif.pl 50 -16.0354,42.1630 fezy.png fezy.tif
 harn-geomap/img2geotif.pl 120 -22.19632,44.41000 firis.png firis.tif
 harn-geomap/img2geotif.pl 90 -18.557,45.5839972 fisen.png fisen.tif
@@ -97,7 +98,7 @@ harn-geomap/img2geotif.pl 120 -16.7917,40.6659 karveth.png karveth.tif
 harn-geomap/img2geotif.pl 50 -16.1195,42.0988 kedic.png kedic.tif
 harn-geomap/img2geotif.pl 160 -24.3185,42.3527 kedis.png kedis.tif
 harn-geomap/img2geotif.pl 50 -16.0322,42.1761 kelime.png kelime.tif
-harn-geomap/img2geotif.pl 2130 -19.4874731,48.4372783 kelts-barrow-*.png kelts-barrow-*.tif # expand this separately by hand
+harn-geomap/img2geotif.pl 2130 -19.4874731,48.4372783 kelts-barrow-C.png kelts-barrow-C.tif
 harn-geomap/img2geotif.pl 120 -24.52926,44.75273 keserin.png keserin.tif
 harn-geomap/img2geotif.pl 120 -23.791,46.247 kiraz.png kiraz.tif
 harn-geomap/img2geotif.pl 78 -21.5297600,44.96191 korego.png korego.tif
@@ -140,6 +141,7 @@ harn-geomap/img2geotif.pl 120 -7.732,54.946 pelyn.png pelyn.tif
 harn-geomap/img2geotif.pl 120 -21.3998,43.5884 pesino.png pesino.tif
 harn-geomap/img2geotif.pl 140 -21.8228,48.0625 pethwys.png pethwys.tif
 harn-geomap/img2geotif.pl 120 -21.584,49.161 pled.png pled.tif
+harn-geomap/img2geotif.pl 240 -24.5071,42.5484 pinide.png pinide.tif
 harn-geomap/img2geotif.pl 50 -15.9854,42.2564 pouka.png pouka.tif
 harn-geomap/img2geotif.pl 50 -15.9994,42.1626 purque.png purque.tif
 harn-geomap/img2geotif.pl 140 -25.524,45.95 quarien-earthmaster.png quarien-earthmaster.tif
