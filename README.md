@@ -83,7 +83,7 @@ below.
 ## Geoserver
 
 As said before, I suggest to install _geoserver_.  That makes the
-"daily work" much easier, as you can view the maps through the browser
+"daily work" much easier, you can view the maps through the browser
 of your choice.  Depending on the OS you use, installation looks
 differently.  Install as described here: [Geoserver
 Installation](https://docs.geoserver.org/stable/en/user/installation/index.html)
